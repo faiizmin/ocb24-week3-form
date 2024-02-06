@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div id="header-logo">
+            <img src="assets/logo.svg" alt="logo">
+        </div>
+        <div id="header-main">
+            <a href="#">Books</a>
+            <a href="#">Authors</a>
+            <a href="#">What to Read</a>
+            <a href="#">Gift Ideas</a>
+            <a href="#">About Us</a>
+        </div>
+        <div id="header-right">
+            <a href="#"><img src="assets/Search.svg" alt="search"></a>
+            <a href="#"><img src="assets/bookmark.svg" alt="search"></a>
+            <a href="#"><img src="assets/Cart.svg" alt="search"></a>
+            <a href="#"><button>LOGIN</button></a>
+        </div>
+    </div>
+
+    <form method="post" action="form.html">
+        <h1>REGISTER YOUR BOOK</h1>
+
+        <div class="section-divider">
+            <h2>Books Details</h2>
+            <input type="line">
+        </div>
+
+        <div class="input-section">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp" >
+        </div>
+        <div class="input-section">
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" name="genre" placeholder="Your book genre here. E.g. Fantasyt" >
+        </div>
+        <div class="input-section">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author" placeholder="Your book author here. E.g. J.K. Rowling">
+        </div>
+        <div class="input-section">
+            <label for="publisher">Publisher</label>
+            <input type="text" id="publisher" name="publisher" placeholder="Publisher of the book. E.g. Pustaka Melang" >
+        </div>
+        <div class="input-section">
+            <label for="year">Year Published</label>
+            <input type="number" id="year" name="year" placeholder="1994" >
+        </div>
+        <div class="radio">
+            <label for="Availability">Availability</label>
+            <input type="radio">
+            <label for="Availability">Online</label>
+            <input type="radio">
+            <label for="Availability">In Store</label>
+            <input type="radio">
+            <label for="Availability">Online & In Store</label>
+        </div>
+        <div class="input-section">
+            <label for="pages">Pages</label>
+            <input type="number" id="year" name="pages" placeholder="514" >
+        </div>
+        <div class="input-section">
+            <label for="language">Language</label>
+            <input type="text" id="language" name="language" placeholder="Language used in the book. E.g. English" >
+        </div>
+
+        <div class="section-divider">
+            <h2>Registree Details</h2>
+            <input type="line">
+        </div>
+
+        <div class="input-section">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name. E.g. Lannah Yeon" >
+        </div>
+        <div class="input-section">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email. E.g. l.yeon@email.com" >
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I hereby agree to follow all rules and confirmed that all details are accurate</label>
+        </div>
+        <button id="save">SAVE YOUR BOOK</button>
+    </form>
+        
+    
+    <div id="footer">
+        <div id="footer-top">
+            <div id="footer-logo">
+                <img src="assets/logo.svg" alt="logo">
+            </div>
+            <div id="footer-social">
+                <img src="assets/insta.png" alt="ig">
+                <img src="assets/fb.png" alt="fb">
+                <img src="assets/twitter.png" alt="twitter">
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div id="footer-term">
+                <p>Terms and conditions</p>
+                <p>Privacy policy</p>
+            </div>
+            <div id="footer-CTA">
+                <p>+44 1332 412251</p>
+                <p>support@bookshelf.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
